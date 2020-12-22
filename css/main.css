@@ -199,12 +199,13 @@ section {
 }
 
 .header.active {
-  background: #fff;
+  background: #1442a1;
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header.active .nav a {
-  color: var(--primary);
+  color: #fff;
 }
 
 .header.active .nav a:hover {
@@ -216,7 +217,7 @@ section {
 }
 
 .header.active .hamburger span {
-  background: var(--primary);
+  background: #fff;
 }
 
 /* 메인 슬라이드 */

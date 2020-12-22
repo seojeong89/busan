@@ -1,6 +1,6 @@
 .sub_header {
   height: 400px;
-  background: url("../images/gallery/sub_visual.jpg") no-repeat center / cover;
+  background: url("../images/main.jpg") no-repeat center / cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .sub_header_title p {
-  width: 70%;
+  /* width: 70%; */
   margin: 0 auto;
 }
 
