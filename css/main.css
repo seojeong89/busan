@@ -294,6 +294,7 @@ section {
   color: var(--gray-light);
   margin: 34px 0 40px;
   width: 50%;
+  font-weight: 500;
 }
 
 /* slick_custom */
