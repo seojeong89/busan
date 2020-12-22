@@ -182,23 +182,20 @@ section {
   position: relative;
 }
 
-.nav a:hover {
-  color: var(--accent);
-}
-
-.nav a.on {
-  color: var(--accent);
-}
-
-.nav a.on::after {
+.nav a::after {
   content: "";
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 50%;
+  width: 0;
   height: 2px;
   background: var(--accent);
+  transition: width 0.3s;
+}
+
+.nav a:hover::after {
+  width: 50%;
 }
 
 .header.active {
